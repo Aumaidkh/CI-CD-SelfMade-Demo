@@ -12,6 +12,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.setValue
+import com.implecode.ci_cd_demo_project.HelperMethods.calculateSum
 import com.implecode.ci_cd_demo_project.ui.theme.CICDDemoProjectTheme
 import com.microsoft.appcenter.AppCenter
 import com.microsoft.appcenter.analytics.Analytics
@@ -68,9 +69,6 @@ class MainActivity : ComponentActivity() {
         }
     }
 
-    private fun calculateSum(number1: String, number2: String): String {
-        return number1.toInt().plus(number2.toInt()).toString()
-    }
 }
 
 
